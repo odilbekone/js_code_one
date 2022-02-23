@@ -1,3 +1,6 @@
+//deposit
+var enter = prompt("Alisherda qancha pul bor?");
+
 //Arrival and departure costs
 var ticket = 500 * 10910;
 
@@ -10,8 +13,6 @@ var rest = 120 * 11800;
 //calculation
 var calculation = (ticket + hotel + rest); 
 
-//deposit
-var enter = prompt("Alisherda qancha pul bor?");
 
 //Let the White Road Alisher console come out if the funds are sufficient
 if (calculation <= enter) {console.log("White road Alisher")} 
